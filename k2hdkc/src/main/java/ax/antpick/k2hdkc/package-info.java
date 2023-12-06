@@ -53,8 +53,9 @@
  * <p>
  * <h2>Using Native C Libraries by using JNA </h2>
  *
- * <p>The class {@link ax.antpick.k2hdkc.K2hdkcLibrary}, {@link ax.antpick.k2hdkc.ChmpxLibrary} and {@link ax.antpick.k2hdkc.K2hashLibrary} implements <a
- * href="https://github.com/java-native-access/jna">Java Native Access</a>'s {@code Library}
+ * <p>The class {@link ax.antpick.k2hdkc.K2hdkcLibrary}, {@link ax.antpick.k2hdkc.ChmpxLibrary} and
+ * {@link ax.antpick.k2hdkc.K2hashLibrary}
+ * implements <a href="https://github.com/java-native-access/jna">Java Native Access</a>'s {@code Library}
  * interface. Their visibilities are mostly package private because we think it is hard to control
  * for application programmers. So they are not extensible currently.
  * <p>
